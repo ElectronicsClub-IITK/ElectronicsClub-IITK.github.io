@@ -1,0 +1,71 @@
+/* BackgroundPage.css */
+.background-container {
+  position: relative;
+  width: 100%;
+  height: 87vh;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/public/database.jpeg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.6;
+}
+
+.text-container1 {
+  background-color: black;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(191, 255, 0);
+  padding: 20px; /* Adjust padding */
+  max-width: 80%; /* Set maximum width */
+}
+
+.text-container1 h1 {
+  font-size: 4rem; /* Adjust font size */
+  margin: 20px 0; /* Adjust margins */
+}
+
+.text-container1 p {
+  font-size: 1.2em; /* Adjust font size */
+  margin: 10px 0; /* Adjust margins */
+}
+
+/* Media queries for responsiveness */
+@media screen and (min-width: 768px) {
+  .text-container1 {
+    max-width: 90%; /* Adjust maximum width for smaller screens */
+  }
+  .text-container1 h1 {
+    font-size: 3rem; /* Adjust font size for smaller screens */
+    margin: 15px 0; /* Adjust margins */
+  }
+  .text-container1 p {
+    font-size: 1em; /* Reset font size */
+    margin: 10px 0; /* Adjust margins */
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .text-container1 {
+    max-width: 100%; /* Adjust maximum width for very small screens */
+    padding: 10px; /* Adjust padding */
+  }
+  .text-container1 h1 {
+    font-size: 2.5rem; /* Adjust font size for very small screens */
+    margin: 10px 0; /* Adjust margins */
+  }
+  .text-container1 p {
+    font-size: 0.9em; /* Adjust font size for very small screens */
+    margin: 8px 0; /* Adjust margins */
+  }
+}

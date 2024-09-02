@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ruwudu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500&family=Roboto+Slab:wght@300&family=Ruwudu&display=swap');@import url("http://fonts.googleapis.com/css?family=Oswald:400,300,700");
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500&family=Lato&family=Roboto+Slab:wght@300&family=Ruwudu&display=swap');
+h1,h2{
+	 font-family: 'Ruwudu', serif;;
+}
+.card-title{
+	font-family: 'Gabarito', serif;;
+}
+.card-text{
+	font-family: 'Lato', serif;;
+}
+.box {
+	border-radius: 150px;
+	background:#fff;
+	position:relative;
+	overflow: hidden;
+	text-align:center;
+	width: 20rem;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.box:before {
+    position: absolute;
+    content: '';
+    left: 0px;
+    top: 0px;
+    width: 0px;
+    height: 100%;
+    border-radius: 150px;
+    box-shadow: inset 0 0 25px rgba(0,0,0,0.30);
+    transition: all 0.3s ease;
+	background-image: linear-gradient(to right, #33733e 0%, #7c9924 100%);
+}
+.box:hover:before {
+    width: 100%;
+}
+.box:hover .image-wrapper {
+	padding:0;
+}
+.box:hover .box-desc {
+	color:#fff;
+}
+.box:hover .social li a {
+	background:#fff;
+	background-image: none;
+	color:#000;
+}
+a:hover{
+	color:white;
+}
+a{
+	color: rgb(9, 206, 206);
+}
+.box:hover .social li a:hover {
+	background:#1d1d1d;
+	color:#fff;
+}
+.image-wrapper {
+    position: relative;
+	max-width: 210px;
+    max-height: 210px;
+	margin:0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+    padding: 15px;
+    transition: all 0.5s ease;
+    box-shadow: inset 0px 0px 20px rgba(0,0,0,0.20);
+}
+.image-wrapper img {
+    border-radius: 50%;
+    transition: all 500ms ease;
+}
+.box-desc {
+	position:relative;
+}
+#ul.social {
+	padding:0;
+}
+#ul.social li {
+	display:inline-block;
+	list-style-type:none;
+}
+#ul.social li a {
+	position:relative;
+	width: 36px;
+    height: 36px;
+	background-image: linear-gradient(to right, #104b04 0%, #475e00 100%);
+	display:inline-block;
+	line-height:36px;
+	border-radius:50%;
+	color:#fff;
+	transition: all .5s ease;
+}
+
+/* team.css */
+.center-content {
+	
+	justify-content: center;
+	align-items: center;
+	min-height: 65vh;
+	text-align: center; /* Center the text inside */
+  }
+  
+  .card-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6rem;
+	justify-content: center; /* Center the cards horizontally */
+  }
+  
+  .card {
+	border: 1px solid #cccccc9a;
+	padding: 10px;
+	background: linear-gradient(to right, #125904 0%, #678805 100%);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	max-width: 300px;
+	text-align: left; /* Reset text alignment inside cards */
+	color:aliceblue;
+	box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  }
+  .shadow-sm {
+	box-shadow: 0 .125rem .5rem rgba(0, 0, 0, 0.256) !important;
+  }
+  .p-4 {
+	padding: 1.8rem !important;
+  }  

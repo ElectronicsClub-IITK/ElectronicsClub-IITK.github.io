@@ -1,0 +1,147 @@
+.foldercard {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 7px;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    box-shadow: 2px 2px;
+}
+
+.foldercard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+   
+   .folder-name {
+    font-family: 'Ubuntu',sans-serif;
+    margin-bottom: 10px;
+    text-align: left;
+   }
+   
+   .description {
+    margin-bottom: -10px;
+    font-size: 14px;
+    font-family: 'Ubuntu',sans-serif;
+    text-align: left;
+   }
+   
+   .author {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Ubuntu',sans-serif;
+    text-align: right;
+   }
+   
+   .num-files {
+    margin-bottom: 10px;
+   }
+   
+   .files {
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+    color:  #BBDF4D;
+    font-size: 20px;
+    font-family: 'Ubuntu',sans-serif;
+    text-align: left;
+    text-decoration: none;
+   }
+   .file-name{
+    color:  #BBDF4D;
+    
+   }
+   .file-name:hover{
+    color: #fcfdfc;
+   }
+   .button{
+    background-color: #000000;
+    float: right;
+   }
+   .Top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+
+.Center{
+display: flex;
+flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.acc{
+    background-color: #000000; /* Green */
+    border: 2px solid #BBDF4D; /* Green */
+    color: #BBDF4D;
+    text-align: center;
+    padding: 4px 4px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    border-radius: 4px;
+}
+.acc:hover{
+    background-color:  #BBDF4D;
+    color: #000000;
+}
+.file-link {
+    text-decoration: none; /* This removes the underline */
+  }
+.search-bar{
+    background-color: #ffffff;
+    border-radius: 10px ;
+    margin: 10px;
+    width: 400px;
+    text-align: center;
+    border: 2px;
+    border-color: #BBDF4D;
+    height: 30px;
+}
+  
+/* ... Your existing styles ... */
+
+@media screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .foldercard {
+        width: 0%; /* Adjust the width for smaller screens */
+        margin: 10px; /* Adjust margin for smaller screens */
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+    .Top {
+        flex-direction: column; /* Change flex direction for smaller screens */
+        text-align: center; /* Center align content */
+    }
+    .author {
+        font-size: 18px; /* Decrease font size for author on smaller screens */
+    }
+    .description {
+        font-size: 12px; /* Decrease font size for description on smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Adjustments for even smaller screens */
+    .foldercard {
+        width: 95%; /* Further adjust width for very small screens */
+        padding: 10px; /* Adjust padding for very small screens */
+    }
+    .search-bar {
+        width: 90%; /* Adjust search bar width for very small screens */
+        margin: 5px; /* Adjust margin for very small screens */
+    }
+    .Center {
+        align-items: stretch; /* Stretch items in the center */
+    }
+    .author {
+        font-size: 16px; /* Decrease font size for author on very small screens */
+    }
+    .folder-name {
+        font-size: 18px; /* Adjust font size for folder name on very small screens */
+    }
+    .description {
+        font-size: 10px; /* Decrease font size for description on very small screens */
+    }
+}

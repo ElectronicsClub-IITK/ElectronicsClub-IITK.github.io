@@ -1,0 +1,334 @@
+{
+"Projects":[
+    {
+      "year": "23",
+      "title": "Smart Watch",
+      "description": "The project aims to make a prototype of a cheaper fitness watch using a microcontroller with a fall detection system.",
+      "imagePath": "images/projects/summer13/aw.jpg",
+      "fullDescription": "The project aims to make a prototype of a cheaper fitness watch using a microcontroller with a fall detection system."
+    },
+    {
+      "year": "23",
+      "title": "Fielding Robo",
+      "description": "Utilize Computer Vision and PID Control to create a functional bot which can catch an object coming to it.",
+      "imagePath": "images/projects/summer23/fieldingrobo.jpg"
+    },
+    {
+      "year": "23",
+      "title": "Virtual Clothing Try-on System",
+      "description": "GAN-powered software which allows you to visualize how a garment looks on you without having to leave the comfort of your home.",
+      "imagePath": "images/projects/summer23/virtualclothing.png"
+    },
+    {
+      "year": "23",
+      "title": "Maglev Platform",
+      "description": "Develop a magnetic levitating platform which can carry a load of more than 5kgs.",
+      "imagePath": "images/projects/summer23/maglev.jpg"
+    },
+    {
+      "year": "23",
+      "title": "Virtual Telepresence Robot",
+      "description": "The robot is capable of capturing the environment in a remote location in virtual form using Raspberry Pi.",
+      "imagePath": "images/projects/summer23/telepresence.jpg"
+    },
+    {
+      "year": "23",
+      "title": "EEG based Motor Control",
+      "description": "We will read EEG data, analyze it and classify it. We will use it to move a robotic gripper.",
+      "imagePath": "images/projects/summer23/eeg.webp"
+    },
+    {
+      "year": "23",
+      "title": "Desktopography",
+      "description": "Guide the computer to click and drag at the location of fingertip using hand tracking and distance thresholding.",
+      "imagePath": "images/projects/summer18/1.jpg"
+    },
+    {
+      "year": "19",
+      "title": "LiFi: Visible Light Communication",
+      "description": "Li-Fi is a portmanteau of “Light” and “Wi-Fi”. It relies on using visible light for transmission of data, instead of radio waves.",
+      "imagePath": "images/projects/summer19/2.jpg"
+    },
+    {
+      "year": "19",
+      "title": "FPGA",
+      "description": "This project aims to emulate the behavior of a real quantum system, capable of running quantum algorithms on FPGA.",
+      "imagePath": "images/projects/summer19/6.png"
+    },
+    {
+      "year": "19",
+      "title": "Smart Gamer",
+      "description": "In this project we build an interactive game which can be controlled using any object and also build an AI which can play on its own.",
+      "imagePath": "images/projects/summer19/3.png"
+    },
+    {
+      "year": "19",
+      "title": "Swarm Robotics",
+      "description": "Swarm robotics is an approach to the coordination of multiple robots as a system which consists of large numbers of robots.",
+      "imagePath": "images/projects/summer19/1.jpg"
+    },
+    {
+      "year": "19",
+      "title": "E-Wall",
+      "description": "E-Wall lets us convert a normal static wall into an interactive wall that can detect touch and multi-touch gestures.",
+      "imagePath": "images/projects/summer19/4.png"
+    },
+    {
+      "year": "19",
+      "title": "WiTrack: Human Tracking",
+      "description": "WiTrack is a device that tracks the 3-D motion of the user from the radio signals reflected off their body.",
+      "imagePath": "images/projects/summer19/5.png"
+    },
+    {
+      "year": "18",
+      "title": "Desktopography",
+      "imagePath": "images/projects/summer18/1.jpg"
+    },
+    {
+      "year": "18",
+      "title": "3D Stackable Display",
+      "imagePath": "images/projects/summer18/4.jpg"
+    },
+    {
+      "year": "18",
+      "title": "FPGA: Neural Networks",
+      "imagePath": "images/projects/summer18/5.png"
+    },
+    {
+      "year": "18",
+      "title": "Skin Track",
+      "imagePath": "images/projects/summer18/3.jpg"
+    },
+    {
+      "year": "18",
+      "title": "IMU Localisation",
+      "imagePath": "images/projects/summer18/2.jpg"
+    },
+    {
+      "year": "17",
+      "title": "Brain Computer Interface",
+      "imagePath": "images/projects/summer17/bci.png"
+    },
+    {
+      "year": "17",
+      "title": "Swarm Robotics",
+      "imagePath": "images/projects/summer17/swarm.jpg"
+    },
+    {
+      "year": "17",
+      "title": "Stereo Vision",
+      "imagePath": "images/projects/summer17/stereo.png"
+    },
+    {
+      "year": "17",
+      "title": "Wireless HDMI",
+      "imagePath": "images/projects/summer17/hdmi.jpg"
+    },
+    {
+      "year": "16",
+      "title": "Wifi Localisation",
+      "imagePath": "images/projects/summer16/wifi.jpg"
+    },
+    {
+      "year": "16",
+      "title": "Kinect Hands Free",
+      "imagePath": "images/projects/summer16/kinects.jpg"
+    },
+    {
+      "year": "16",
+      "title": "Interactive Bot",
+      "imagePath": "images/projects/summer15/SocialRobot.jpg"
+    },
+    {
+      "year": "16",
+      "title": "Hand Gesture Recognition using EMG",
+      "imagePath": "images/projects/summer16/hand.png"
+    },
+    {
+      "year": "15",
+      "title": "EMG: Hand Gesture Recognition",
+      "description": "Wearable technology is the future of electronics gadgets. As interesting as it seems, it has myriad applications.",
+      "imagePath": "images/projects/summer15/emg.jpg"
+    },
+    {
+      "year": "15",
+      "title": "FPGA based audio processor",
+      "description": "If we consider the situation of attending a party, our ears capture numerous sounds: a friend’s voice, background music and many others.",
+      "imagePath": "images/projects/summer15/fpga.jpg"
+    },
+    {
+      "year": "15",
+      "title": "Gesture recognition using IMU",
+      "description": "We will put IMU sensor on hand band and then using this sensor we will calculate the trajectory of the hand.",
+      "imagePath": "images/projects/summer15/hand.jpg"
+    },
+    {
+      "year": "15",
+      "title": "Smart Lock",
+      "description": "Smart Lock is an internet-controlled biometric security lock. It has been specifically developed for Electronics Club main door.",
+      "imagePath": "images/projects/summer15/lock.jpg"
+    },
+    {
+      "year": "15",
+      "title": "Mood Visualization",
+      "description": "With the boom in information technology, there is so much data available on the internet- 'The Big Data'.",
+      "imagePath": "images/projects/summer15/mood.jpg"
+    },
+    {
+      "year": "15",
+      "title": "Smart Handshake",
+      "description": "The SmartBand is a wearable bracelet-like device that exchanges information about its users and their relationships.",
+      "imagePath": "images/projects/summer15/handshake.jpg"
+    },
+    {
+      "year": "15",
+      "title": "Social Robot",
+      "description": "Robots have always fascinated mankind. Through the advancement in technology the world has been able to implement.",
+      "imagePath": "images/projects/summer15/SocialRobot.jpg"
+    },
+    {
+      "year": "14",
+      "title": "FPGA Music",
+      "description": "The idea of the project is to represent various frequencies present in the audio input signal on a led matrix using FPGA.",
+      "imagePath": "images/projects/summer14/fpga_music.jpg"
+    },
+    {
+      "year": "14",
+      "title": "Conway's Game of Life",
+      "description": "The main aim of this project was to implement Conway's game of life (a cellular automata) on a grid of 16x16 led matrices.",
+      "imagePath": "images/projects/summer14/conway.webp"
+    },
+    {
+      "year": "14",
+      "title": "Fitness Tracker",
+      "description": "The field of wearable electronics has the potential to revolutionize our lifestyle. Our aim was to develop a complete package.",
+      "imagePath": "images/projects/summer14/fitness_sleep.webp"
+    },
+    {
+      "year": "14",
+      "title": "Surveillance Camera",
+      "description": "We have made an advanced surveillance camera capable of face detection and at the same time recognizing the face detected.",
+      "imagePath": "images/projects/summer14/CameraSurveillance.webp"
+    },
+    {
+      "year": "14",
+      "title": "3D Laser Scanner",
+      "description": "We are making a scanner for 3D objects using laser. What we are going to do is, throw a planar laser on object (kept in dark surrounding).",
+      "imagePath": "images/projects/summer14/3d_laser_scanner.webp"
+    },
+    {
+      "year": "14",
+      "title": "Pi Enabled Tracking Bot",
+      "description": "We have made a robot capable of Surveillance and also with an alternate application in detecting and following a pre-specified object.",
+      "imagePath": "images/projects/summer14/PET.webp"
+    },
+    {
+      "year": "14",
+      "title": "Laser Tag",
+      "description": "We have made a laser tag gaming system comprising of laser gun, sensor jacket, and helmet. The laser gun emits lasers.",
+      "imagePath": "images/projects/summer14/lasertag.webp"
+    },
+    {
+      "year": "14",
+      "title": "Aura Play",
+      "description": "luminAR provide you with a computer interface on your desk workspace. Developed such as to provide you with an intuitive interaction.",
+      "imagePath": "images/projects/summer14/auraplay.webp"
+    },
+    {
+      "year": "13",
+      "title": "Cashless Campus",
+      "description": "An electronic payment and billing system using a TFT Display, touchscreen, and a thermal printer for printing invoice and/or coupons.",
+      "imagePath": "images/projects/summer13/cc.jpg"
+    },
+    {
+      "year": "13",
+      "title": "3D LED Cube",
+      "description": "A LED cube is like a LED screen, but it is special as it has 3D. We can think it as of low-resolution displays.",
+      "imagePath": "images/projects/summer18/4.jpg"
+    },
+    {
+      "year": "13",
+      "title": "Gaming Console",
+      "description": "Bringing for you a dazzling gaming experience that will certainly amaze you by its speed, thrill, and entertainment.",
+      "imagePath": "images/projects/summer13/gc.jpg"
+    },
+    {
+      "year": "13",
+      "title": "AssistU",
+      "description": "Do you often miss out on several important events because you simply forget about them? 'ASSIST U' is an android app which eases.",
+      "imagePath": "images/projects/summer13/au.jpg"
+    },
+    {
+      "year": "13",
+      "title": "Hole in the Wall",
+      "description": "Games played with joysticks are growing outdated by the introduction of many innovative user controls. Kinect being one of them.",
+      "imagePath": "images/projects/summer13/hw.jpg"
+    },
+    {
+      "year": "13",
+      "title": "Kinect Dodge Ball",
+      "description": "A realtime multiplayer game based on kinect and android phone. Kinect connected to a pc recognizes the gestures of a player.",
+      "imagePath": "images/projects/summer13/kdb.jpg"
+    },
+    {
+      "year": "13",
+      "title": "Text Recognition",
+      "description": "We made a project in which we just take an image and process it to extract the text present in the image.",
+      "imagePath": "images/projects/summer13/tr.jpg"
+    },
+    {
+      "year": "13",
+      "title": "Evo Mouse",
+      "description": "Evo Mouse, a product that would let people control normal mouse operations just by using their natural hand movements.",
+      "imagePath": "images/projects/summer13/em.jpg"
+    },
+    {
+      "year": "13",
+      "title": "Smart Watch",
+      "description": "Think of the noisiest places, the quietest places and the busiest places you have been to. How many times have you missed an important call.",
+      "imagePath": "images/projects/summer13/aw.jpg"
+    },
+    {
+      "year": "13",
+      "title": "Balancing Platform",
+      "description": "A self-balancing platform consists of a platform which is balanced by the movement of three motors in the opposite direction to the movement.",
+      "imagePath": "images/projects/summer13/sbp.jpg"
+    },
+    {
+      "year": "13",
+      "title": "Autonomous Quadcopter",
+      "description": "Quadcopter is a multi-purpose micro-class unmanned air vehicle (MUAV). This MUAV has a wide range of applications from.",
+      "imagePath": "images/projects/summer13/aq.jpg"
+    },
+    {
+      "year": "13",
+      "title": "Aura Play",
+      "description": "luminAR provide you with a computer interface on your desk workspace. Developed such as to provide you with an intuitive interaction.",
+      "imagePath": "images/projects/summer14/auraplay.webp"
+    },
+    {
+      "year": "13",
+      "title": "Arduino Tablet",
+      "description": "An Arduino based tablet that uses Smart GPU display, designing the basic GUI of the tablet and developing various applications.",
+      "imagePath": "images/projects/summer13/at.jpg"
+    },
+    {
+      "year": "13",
+      "title": "E- Glove",
+      "description": "Isn’t it fascinating to interact with your computer with hand gestures? Here we introduce a glove which user can wear on his right hand.",
+      "imagePath": "images/projects/summer13/eg.jpg"
+    },
+    {
+      "year": "13",
+      "title": "Mind Freaks",
+      "description": "Here we present before you an innovative approach to compare your concentration with your friend’s. It is basically a game which player.",
+      "imagePath": "images/projects/summer13/mf.jpg"
+    },
+    {
+      "year": "13",
+      "title": "FPGA Calculator",
+      "description": "Build a scientific calculator on FPGA board using Verilog as HDL, this would handle floating point numbers (32-bit, single precision).",
+      "imagePath": "images/projects/summer13/fc.jpg"
+    }
+]
+}
