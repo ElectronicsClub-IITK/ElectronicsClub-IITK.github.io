@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b104cccb.css",
-    "main.js": "/static/js/main.72315e24.js",
+    "main.js": "/static/js/main.7b2e58ec.js",
     "static/js/787.75bd6106.chunk.js": "/static/js/787.75bd6106.chunk.js",
     "static/media/electromania.pdf": "/static/media/electromania.b19d175c673bf3df14e0.pdf",
     "static/media/accelerometer.zip": "/static/media/accelerometer.f6f7e7960cf8375f8bdb.zip",
@@ -156,11 +156,11 @@
     "static/media/secondActivity.java": "/static/media/secondActivity.271cd73ca387dd937031.java",
     "static/media/embedded.m": "/static/media/embedded.25ecb2104a600e9863c7.m",
     "main.b104cccb.css.map": "/static/css/main.b104cccb.css.map",
-    "main.72315e24.js.map": "/static/js/main.72315e24.js.map",
+    "main.7b2e58ec.js.map": "/static/js/main.7b2e58ec.js.map",
     "787.75bd6106.chunk.js.map": "/static/js/787.75bd6106.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b104cccb.css",
-    "static/js/main.72315e24.js"
+    "static/js/main.7b2e58ec.js"
   ]
 }
