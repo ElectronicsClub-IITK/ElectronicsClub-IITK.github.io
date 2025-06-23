@@ -4,16 +4,16 @@
     <meta charset="UTF-8" />
     <title>Redirecting…</title>
     <script type="text/javascript">
-      // Capture the actual path + search + hash
-      var path = window.location.pathname;
-      var search = window.location.search;
-      var hash = window.location.hash;
+      // Get current path, query, and hash
+      var path = window.location.pathname + window.location.search + window.location.hash;
 
-      // This is your deployed repo path
-      var repo = "/electronicsclub-iitk";
+      // This is your root path — no subpath needed
+      var base = "";
 
-      // Redirect to index.html with route in hash
-      window.location.replace(repo + "/#" + path + search + hash);
+      // Only redirect if not already in hash format
+      if (!window.location.href.includes("/#")) {
+        window.location.replace(base + "/#" + path);
+      }
     </script>
   </head>
   <body>
