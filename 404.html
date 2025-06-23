@@ -4,15 +4,11 @@
     <meta charset="UTF-8" />
     <title>Redirecting…</title>
     <script type="text/javascript">
-      // Get current path, query, and hash
-      var path = window.location.pathname + window.location.search + window.location.hash;
-
-      // This is your root path — no subpath needed
-      var base = "";
-
-      // Only redirect if not already in hash format
-      if (!window.location.href.includes("/#")) {
-        window.location.replace(base + "/#" + path);
+      const fullPath = window.location.pathname + window.location.search + window.location.hash;
+      if (!sessionStorage.getItem("redirected")) {
+        sessionStorage.setItem("redirected", "true");
+        const target = "/?redirect=" + encodeURIComponent(fullPath);
+        window.location.replace(target);
       }
     </script>
   </head>
