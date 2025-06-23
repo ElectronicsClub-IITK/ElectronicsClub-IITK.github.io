@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting…</title>
+    <script type="text/javascript">
+      // Capture the actual path + search + hash
+      var path = window.location.pathname;
+      var search = window.location.search;
+      var hash = window.location.hash;
+
+      // This is your deployed repo path
+      var repo = "/electronicsclub-iitk";
+
+      // Redirect to index.html with route in hash
+      window.location.replace(repo + "/#" + path + search + hash);
+    </script>
+  </head>
+  <body>
+    Redirecting…
+  </body>
+</html>
