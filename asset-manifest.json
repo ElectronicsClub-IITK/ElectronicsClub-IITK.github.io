@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b104cccb.css",
-    "main.js": "/static/js/main.90957c84.js",
+    "main.css": "/static/css/main.e44cb66e.css",
+    "main.js": "/static/js/main.c2fed99c.js",
     "static/js/787.75bd6106.chunk.js": "/static/js/787.75bd6106.chunk.js",
     "static/media/electromania.pdf": "/static/media/electromania.b19d175c673bf3df14e0.pdf",
     "static/media/accelerometer.zip": "/static/media/accelerometer.f6f7e7960cf8375f8bdb.zip",
@@ -117,7 +117,9 @@
     "static/media/fpga.png": "/static/media/fpga.b06d4ea4828620fa371f.png",
     "static/media/moodp.jpg": "/static/media/moodp.e58d32ec4c291ef9deda.jpg",
     "static/media/fpga_music.webp": "/static/media/fpga_music.1d23d654302dcdbdd895.webp",
+    "static/media/leaderboard-bg.jpg": "/static/media/leaderboard-bg.1ddd2093b98e1bdaf565.jpg",
     "static/media/SocialRobot.jpg": "/static/media/SocialRobot.338a24c24b0f72955cbe.jpg",
+    "static/media/challenge-bg.avif": "/static/media/challenge-bg.dc042e557be12e398e02.avif",
     "static/media/fitness_sleep.webp": "/static/media/fitness_sleep.79c82eaaa821be4cf85b.webp",
     "static/media/lasertag.webp": "/static/media/lasertag.ae39e562f2f5b5bda99e.webp",
     "static/media/hand.png": "/static/media/hand.17b2b4f743591b1d77b0.png",
@@ -167,12 +169,12 @@
     "index.html": "/index.html",
     "static/media/secondActivity.java": "/static/media/secondActivity.271cd73ca387dd937031.java",
     "static/media/embedded.m": "/static/media/embedded.25ecb2104a600e9863c7.m",
-    "main.b104cccb.css.map": "/static/css/main.b104cccb.css.map",
-    "main.90957c84.js.map": "/static/js/main.90957c84.js.map",
+    "main.e44cb66e.css.map": "/static/css/main.e44cb66e.css.map",
+    "main.c2fed99c.js.map": "/static/js/main.c2fed99c.js.map",
     "787.75bd6106.chunk.js.map": "/static/js/787.75bd6106.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b104cccb.css",
-    "static/js/main.90957c84.js"
+    "static/css/main.e44cb66e.css",
+    "static/js/main.c2fed99c.js"
   ]
 }
