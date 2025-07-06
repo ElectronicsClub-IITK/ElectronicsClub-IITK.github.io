@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f915ac0f.css",
-    "main.js": "/static/js/main.82320212.js",
+    "main.css": "/static/css/main.09d2531c.css",
+    "main.js": "/static/js/main.1d34e844.js",
     "static/js/787.75bd6106.chunk.js": "/static/js/787.75bd6106.chunk.js",
     "static/media/electromania.pdf": "/static/media/electromania.b19d175c673bf3df14e0.pdf",
     "static/media/accelerometer.zip": "/static/media/accelerometer.f6f7e7960cf8375f8bdb.zip",
@@ -169,12 +169,12 @@
     "index.html": "/index.html",
     "static/media/secondActivity.java": "/static/media/secondActivity.271cd73ca387dd937031.java",
     "static/media/embedded.m": "/static/media/embedded.25ecb2104a600e9863c7.m",
-    "main.f915ac0f.css.map": "/static/css/main.f915ac0f.css.map",
-    "main.82320212.js.map": "/static/js/main.82320212.js.map",
+    "main.09d2531c.css.map": "/static/css/main.09d2531c.css.map",
+    "main.1d34e844.js.map": "/static/js/main.1d34e844.js.map",
     "787.75bd6106.chunk.js.map": "/static/js/787.75bd6106.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f915ac0f.css",
-    "static/js/main.82320212.js"
+    "static/css/main.09d2531c.css",
+    "static/js/main.1d34e844.js"
   ]
 }
