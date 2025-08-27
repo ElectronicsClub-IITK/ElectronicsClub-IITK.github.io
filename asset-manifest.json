@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.167cfd9c.css",
-    "main.js": "/static/js/main.1d34e844.js",
+    "main.css": "/static/css/main.647add6f.css",
+    "main.js": "/static/js/main.baa91ea2.js",
     "static/js/787.75bd6106.chunk.js": "/static/js/787.75bd6106.chunk.js",
     "static/media/electromania.pdf": "/static/media/electromania.b19d175c673bf3df14e0.pdf",
     "static/media/accelerometer.zip": "/static/media/accelerometer.f6f7e7960cf8375f8bdb.zip",
@@ -41,21 +41,22 @@
     "static/media/rpi_lec.pdf": "/static/media/rpi_lec.7e47322b936f6fb45877.pdf",
     "static/media/uart.pdf": "/static/media/uart.adaf80cafe822997804e.pdf",
     "static/media/Takneek'17 lecture.pdf": "/static/media/Takneek'17 lecture.0298912364cd625dda93.pdf",
+    "static/media/groove.pdf": "/static/media/groove.e28904aff570415af38b.pdf",
     "static/media/hand.jpg": "/static/media/hand.59b2872171cc0ad3ce2d.jpg",
     "static/media/FPGA Design Challenge2.pdf": "/static/media/FPGA Design Challenge2.fb6980c1a3dde4c0fe5f.pdf",
+    "static/media/ANN.pdf": "/static/media/ANN.2694f5b4bd2189b4d4ca.pdf",
     "static/media/Enigma.pdf": "/static/media/Enigma.57714d22f762f18b7621.pdf",
     "static/media/kinect.pdf": "/static/media/kinect.8d17ce81c98a0155d39c.pdf",
+    "static/media/flexeglove.pdf": "/static/media/flexeglove.e5676e400b5cdade6f8e.pdf",
     "static/media/Microcontrollers.pdf": "/static/media/Microcontrollers.0fd66b9cee53907c78a1.pdf",
     "static/media/Communication.pdf": "/static/media/Communication.7703be5fac5b780a7cfc.pdf",
     "static/media/introduction_to_mcu.pdf": "/static/media/introduction_to_mcu.d1393bbb8c02c890a9fe.pdf",
     "static/media/android.pdf": "/static/media/android.e62c8c976f700af8bbfa.pdf",
     "static/media/fpga.pdf": "/static/media/fpga.872357abe9b6e2b3673d.pdf",
     "static/media/electromania17.pdf": "/static/media/electromania17.92eff7f6f8c5171ab176.pdf",
-    "static/media/flexeglove.pdf": "/static/media/flexeglove.4a4f5e8db1ce7fc7af8c.pdf",
-    "static/media/ANN.pdf": "/static/media/ANN.822c5c7a06e512c0dcf2.pdf",
+    "static/media/Doodlebot.pdf": "/static/media/Doodlebot.24926c632b1b595ef2ac.pdf",
     "static/media/virtualclothing.png": "/static/media/virtualclothing.7975216e1db8f5a4a3c3.png",
     "static/media/ecdc_electromania.pdf": "/static/media/ecdc_electromania.517fdef2167d652d4714.pdf",
-    "static/media/Doodlebot.pdf": "/static/media/Doodlebot.9f301bd988bc1a1a3e2f.pdf",
     "static/media/opencv.pdf": "/static/media/opencv.80f08643e38b495dba71.pdf",
     "static/media/Embedded-Old-1.pdf": "/static/media/Embedded-Old-1.b475eef2e065668b0c67.pdf",
     "static/media/3.png": "/static/media/3.7f9431b818a6b8340ff1.png",
@@ -66,7 +67,6 @@
     "static/media/fpga2.pdf": "/static/media/fpga2.27ecdaa5abf4cf15373e.pdf",
     "static/media/Embedded-Old-2.pdf": "/static/media/Embedded-Old-2.f99353fd9a0c6d4cca05.pdf",
     "static/media/fpga1.pdf": "/static/media/fpga1.8dee6ef8325f7187a46e.pdf",
-    "static/media/groove.pdf": "/static/media/groove.a68a9f215439f61747ea.pdf",
     "static/media/fpgap.jpg": "/static/media/fpgap.b59c55a7726c37e90820.jpg",
     "static/media/analog.pdf": "/static/media/analog.cb63250d6195ecdadc92.pdf",
     "static/media/database.jpeg": "/static/media/database.609ab0b99003af4afdb9.jpeg",
@@ -145,6 +145,7 @@
     "static/media/takneek.jpg": "/static/media/takneek.767f0a89854983c88a07.jpg",
     "static/media/telepresence.jpg": "/static/media/telepresence.fe40e38cd6b9eeef313e.jpg",
     "static/media/cc.jpg": "/static/media/cc.30d0e0a51664ac8f61dc.jpg",
+    "static/media/quantum.webp": "/static/media/quantum.2fc1e71f6473eaedcd3b.webp",
     "static/media/img5.jpg": "/static/media/img5.65e0005a70cf10b7741d.jpg",
     "static/media/3d_laser_scanner.webp": "/static/media/3d_laser_scanner.626e5912217810f312e0.webp",
     "static/media/sbp.jpg": "/static/media/sbp.6000450a30af18496167.jpg",
@@ -169,12 +170,12 @@
     "static/media/FpgaExamples2.rar": "/static/media/FpgaExamples2.743d38b66056f001f1b3.rar",
     "static/media/secondActivity.java": "/static/media/secondActivity.271cd73ca387dd937031.java",
     "static/media/embedded.m": "/static/media/embedded.25ecb2104a600e9863c7.m",
-    "main.167cfd9c.css.map": "/static/css/main.167cfd9c.css.map",
-    "main.1d34e844.js.map": "/static/js/main.1d34e844.js.map",
+    "main.647add6f.css.map": "/static/css/main.647add6f.css.map",
+    "main.baa91ea2.js.map": "/static/js/main.baa91ea2.js.map",
     "787.75bd6106.chunk.js.map": "/static/js/787.75bd6106.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.167cfd9c.css",
-    "static/js/main.1d34e844.js"
+    "static/css/main.647add6f.css",
+    "static/js/main.baa91ea2.js"
   ]
 }
