@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c07e8022.css",
-    "main.js": "/static/js/main.8fd04912.js",
+    "main.css": "/static/css/main.8ea5e708.css",
+    "main.js": "/static/js/main.a5f542f4.js",
     "static/js/787.75bd6106.chunk.js": "/static/js/787.75bd6106.chunk.js",
     "static/media/electromania.pdf": "/static/media/electromania.b19d175c673bf3df14e0.pdf",
     "static/media/accelerometer.zip": "/static/media/accelerometer.f6f7e7960cf8375f8bdb.zip",
@@ -100,7 +100,6 @@
     "static/media/proc.pdf": "/static/media/proc.b481dac2ed930cd4e366.pdf",
     "static/media/swarm.jpg": "/static/media/swarm.2232e06701789fdcf970.jpg",
     "static/media/about_image.png": "/static/media/about_image.cb22bc5a15bfb65daa15.png",
-    "static/media/eclub-bg.jpg": "/static/media/eclub-bg.fef554b3339d31cd6064.jpg",
     "static/media/pic04.jpg": "/static/media/pic04.8ca1ebb13baaed271cb7.jpg",
     "static/media/recent.jpg": "/static/media/recent.eecf1fe2023d28faa73e.jpg",
     "static/media/ANN.jpg": "/static/media/ANN.7375e8b2d4f2b84978be.jpg",
@@ -116,12 +115,14 @@
     "static/media/lock.jpg": "/static/media/lock.1b23d626133f94209b3e.jpg",
     "static/media/fpga.png": "/static/media/fpga.b06d4ea4828620fa371f.png",
     "static/media/moodp.jpg": "/static/media/moodp.e58d32ec4c291ef9deda.jpg",
+    "static/media/Eclub.webp": "/static/media/Eclub.d4345057ee9a4d8bb274.webp",
     "static/media/fpga_music.webp": "/static/media/fpga_music.1d23d654302dcdbdd895.webp",
     "static/media/leaderboard-bg.jpg": "/static/media/leaderboard-bg.1ddd2093b98e1bdaf565.jpg",
     "static/media/SocialRobot.jpg": "/static/media/SocialRobot.338a24c24b0f72955cbe.jpg",
     "static/media/challenge-bg.avif": "/static/media/challenge-bg.dc042e557be12e398e02.avif",
     "static/media/fitness_sleep.webp": "/static/media/fitness_sleep.79c82eaaa821be4cf85b.webp",
     "static/media/lasertag.webp": "/static/media/lasertag.ae39e562f2f5b5bda99e.webp",
+    "static/media/Eclub_bg.webp": "/static/media/Eclub_bg.4c2802ddcfe9bd55473d.webp",
     "static/media/hand.png": "/static/media/hand.17b2b4f743591b1d77b0.png",
     "static/media/2.jpg": "/static/media/2.9cb7667e856f1e4c90cb.jpg",
     "static/media/maglev.jpg": "/static/media/maglev.9ce538652061ea0ce14c.jpg",
@@ -166,16 +167,16 @@
     "static/media/img2.jpg": "/static/media/img2.e966ede3507ce2379785.jpg",
     "static/media/pic07.jpg": "/static/media/pic07.a51d42032d0c5caf0c60.jpg",
     "static/media/img1.jpg": "/static/media/img1.fe34240447025a8d6a67.jpg",
-    "static/media/FpgaExamples2.rar": "/static/media/FpgaExamples2.743d38b66056f001f1b3.rar",
     "index.html": "/index.html",
+    "static/media/FpgaExamples2.rar": "/static/media/FpgaExamples2.743d38b66056f001f1b3.rar",
     "static/media/secondActivity.java": "/static/media/secondActivity.271cd73ca387dd937031.java",
     "static/media/embedded.m": "/static/media/embedded.25ecb2104a600e9863c7.m",
-    "main.c07e8022.css.map": "/static/css/main.c07e8022.css.map",
-    "main.8fd04912.js.map": "/static/js/main.8fd04912.js.map",
+    "main.8ea5e708.css.map": "/static/css/main.8ea5e708.css.map",
+    "main.a5f542f4.js.map": "/static/js/main.a5f542f4.js.map",
     "787.75bd6106.chunk.js.map": "/static/js/787.75bd6106.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c07e8022.css",
-    "static/js/main.8fd04912.js"
+    "static/css/main.8ea5e708.css",
+    "static/js/main.a5f542f4.js"
   ]
 }
