@@ -47,6 +47,11 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav__item">
+              <Link to="/RecentCompetitions" id={isActive("/RecentCompetitions") ? "active" : ""} className="nav__link">
+                Recent Competitions
+              </Link>
+            </li>
+            <li className="nav__item">
               <Link to="/Team" id={isActive("/Team") ? "active" : ""} className="nav__link">
                 Team
               </Link>

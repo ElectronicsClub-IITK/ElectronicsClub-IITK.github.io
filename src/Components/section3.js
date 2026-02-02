@@ -38,6 +38,11 @@ const Section3 = () => {
         description="An immersive program where participants dive deep into electronics ,blending hands-on workshops with lectures."
       />
       <Card2
+        imageUrl="competitions/lam_onsite.jpeg"
+        heading="Competitions"
+        description="Participated and won in many International, National and Pan IIT level competitions"
+      />
+      <Card2
         imageUrl="lectures.jpg"
         heading="Lectures"
         description="Electronics club conducts lectures round the year covering various topics of electronics."

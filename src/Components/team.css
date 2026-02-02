@@ -14,7 +14,9 @@ h1,h2{
 }
 .box {
 	position: relative;
-	width: 20rem;
+	max-width: 20rem; /* prevent overly wide cards but allow flex/grid to size */
+	width: 100%;
+	margin: 0 auto; /* center inside column */
 	border-radius: 150px;
 	background: #fff;
 	text-align: center;
@@ -125,7 +127,7 @@ a {
   .card-container {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 6rem;
+	gap: 2rem;
 	justify-content: center; /* Center the cards horizontally */
   }
   

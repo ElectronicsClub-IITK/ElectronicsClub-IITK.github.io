@@ -3,6 +3,9 @@
     "main.css": "/static/css/main.c07e8022.css",
     "main.js": "/static/js/main.3d45b1c5.js",
     "static/js/787.75bd6106.chunk.js": "/static/js/787.75bd6106.chunk.js",
+    "main.css": "/static/css/main.5f8c6993.css",
+    "main.js": "/static/js/main.8c1dfed2.js",
+    "static/js/453.b82c14f9.chunk.js": "/static/js/453.b82c14f9.chunk.js",
     "static/media/electromania.pdf": "/static/media/electromania.b19d175c673bf3df14e0.pdf",
     "static/media/accelerometer.zip": "/static/media/accelerometer.f6f7e7960cf8375f8bdb.zip",
     "static/media/arduino.pdf": "/static/media/arduino.88dec628d7a59a459909.pdf",
@@ -166,7 +169,6 @@
     "static/media/img2.jpg": "/static/media/img2.e966ede3507ce2379785.jpg",
     "static/media/pic07.jpg": "/static/media/pic07.a51d42032d0c5caf0c60.jpg",
     "static/media/img1.jpg": "/static/media/img1.fe34240447025a8d6a67.jpg",
-    "static/media/FpgaExamples2.rar": "/static/media/FpgaExamples2.743d38b66056f001f1b3.rar",
     "index.html": "/index.html",
     "static/media/secondActivity.java": "/static/media/secondActivity.ccbe4c711c8971e125a2.java",
     "static/media/embedded.m": "/static/media/embedded.2221816350562f0e5931.m",
@@ -177,5 +179,15 @@
   "entrypoints": [
     "static/css/main.c07e8022.css",
     "static/js/main.3d45b1c5.js"
+    "static/media/FpgaExamples2.rar": "/static/media/FpgaExamples2.743d38b66056f001f1b3.rar",
+    "static/media/secondActivity.java": "/static/media/secondActivity.271cd73ca387dd937031.java",
+    "static/media/embedded.m": "/static/media/embedded.25ecb2104a600e9863c7.m",
+    "main.5f8c6993.css.map": "/static/css/main.5f8c6993.css.map",
+    "main.8c1dfed2.js.map": "/static/js/main.8c1dfed2.js.map",
+    "453.b82c14f9.chunk.js.map": "/static/js/453.b82c14f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f8c6993.css",
+    "static/js/main.8c1dfed2.js"
   ]
 }

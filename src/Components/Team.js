@@ -6,10 +6,10 @@ import data from'../database/data.json'; // Your JSON data here
 const Card = ({ title, items }) => {
   return (
     <div>
-      <h2>{title}</h2><br></br>
+      <h2>{title}</h2>
       <div className="card-container">
         {items.map(item => (
-          <div className="col-sm-6 col-lg-3 my-auto" key={item.id}>
+          <div className="col-sm-6 col-lg-3" key={item.id}>
             <div className="box shadow-sm p-4">
               <div className="image-wrapper mb-3">
                 <img className="img-fluid" src={item.image} alt="..." />
@@ -43,7 +43,7 @@ const Card = ({ title, items }) => {
 
 function App() {
   return (
-    <><br></br>
+    <>
       <div className="card bg-light mb-3 mx-auto rounded-4 w-180" style={{ maxWidth: "80%" }}>
         <div className="card-body">
           <h3 className="card-title"><b>Meet Our Team</b></h3>
@@ -52,11 +52,8 @@ function App() {
           </p>
         </div>
       </div>
-<br></br>
-     
-    
-      <Card title="Coordinators" items={data.coordi} /><br></br><br></br><br></br>
-      <Card title="Coordinators 24-25" items={data.pastcoordi} /><br></br><br></br><br></br>
+      <Card title="Coordinators" items={data.coordi} />
+      <Card title="Coordinators 24-25" items={data.pastcoordi} />
       <Card title="Secretaries" items={data.manager} />
     </>
       );

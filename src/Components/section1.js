@@ -7,6 +7,9 @@ const SHEET_ID = "1kjMgQEFPqU8fOqCGaBUk75AQ_4ZymVfo8AwQNh0KpO8";
 const API_KEY = "AIzaSyB0KLQPuV6Ud6-d8e_dP-68ODNU_F2ULGA";
 const RANGE = "Sheet1!A2:D";
 
+// Static recent activities to always show, as requested
+const staticActivities = [];
+
 const Section1 = () => {
    const[activities, setActivities] = useState([]);
 
@@ -41,10 +44,7 @@ const Section1 = () => {
         Recent Activities
        </p>
        <div className="scroll-container">
-        {activities.length === 0 ? (
-          <p style={{ color: "white" }}>Loading...</p>
-        ) : (
-          activities.map((activity, index) => (
+        {[...staticActivities, ...activities].map((activity, index) => (
             <Recent
               key={index}
               eventName={activity.eventName}
@@ -52,8 +52,7 @@ const Section1 = () => {
               description={activity.description}
               link={activity.link}
             />
-          ))
-        )}
+          ))}
       </div>
     </div>
        )

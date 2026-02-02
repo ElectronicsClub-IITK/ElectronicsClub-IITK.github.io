@@ -26,7 +26,7 @@ const Footer = () => {
         <a href="https://in.linkedin.com/company/electronics-club-iit-kanpur" className="me-4 link-secondary">
           <i className="fa fa-linkedin" />
         </a>
-        <a href="https://github.com/eclubiitk" className="me-4 link-secondary">
+        <a href="https://github.com/electronicsclub-iitk" className="me-4 link-secondary">
           <i className="fa fa-github" />
         </a>
       </div>
@@ -75,6 +75,11 @@ const Footer = () => {
             <p>
               <a href="/Comp" className="text-reset">
                 Get Components
+              </a>
+            </p>
+            <p>
+              <a href="/RecentCompetitions" className="text-reset">
+                Recent Competitions
               </a>
             </p>
           </div>
