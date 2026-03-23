@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "ECLUB IITK",
+  "name": "Electronics Club IIT Kanpur",
+  "description": "Electronics Club IIT Kanpur — hands-on projects, workshops, articles, and competitions for electronics enthusiasts.",
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,8 +19,10 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "lang": "en",
+  "scope": "/"
 }
