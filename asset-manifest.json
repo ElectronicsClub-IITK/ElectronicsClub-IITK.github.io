@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.5e459106.css",
-    "main.js": "/static/js/main.fb5fef67.js",
-    "static/js/961.179455fe.chunk.js": "/static/js/961.179455fe.chunk.js",
+    "main.css": "/static/css/main.c206bb2e.css",
+    "main.js": "/static/js/main.edda4347.js",
+    "static/js/961.14062b07.chunk.js": "/static/js/961.14062b07.chunk.js",
     "static/js/453.b82c14f9.chunk.js": "/static/js/453.b82c14f9.chunk.js",
-    "static/js/230.138f99ff.chunk.js": "/static/js/230.138f99ff.chunk.js",
+    "static/js/696.6ac289a4.chunk.js": "/static/js/696.6ac289a4.chunk.js",
     "static/media/electromania.pdf": "/static/media/electromania.b19d175c673bf3df14e0.pdf",
     "static/media/accelerometer.zip": "/static/media/accelerometer.f6f7e7960cf8375f8bdb.zip",
     "static/media/arduino.pdf": "/static/media/arduino.88dec628d7a59a459909.pdf",
@@ -179,14 +179,14 @@
     "static/media/FpgaExamples2.rar": "/static/media/FpgaExamples2.743d38b66056f001f1b3.rar",
     "static/media/secondActivity.java": "/static/media/secondActivity.ccbe4c711c8971e125a2.java",
     "static/media/embedded.m": "/static/media/embedded.2221816350562f0e5931.m",
-    "main.5e459106.css.map": "/static/css/main.5e459106.css.map",
-    "main.fb5fef67.js.map": "/static/js/main.fb5fef67.js.map",
-    "961.179455fe.chunk.js.map": "/static/js/961.179455fe.chunk.js.map",
+    "main.c206bb2e.css.map": "/static/css/main.c206bb2e.css.map",
+    "main.edda4347.js.map": "/static/js/main.edda4347.js.map",
+    "961.14062b07.chunk.js.map": "/static/js/961.14062b07.chunk.js.map",
     "453.b82c14f9.chunk.js.map": "/static/js/453.b82c14f9.chunk.js.map",
-    "230.138f99ff.chunk.js.map": "/static/js/230.138f99ff.chunk.js.map"
+    "696.6ac289a4.chunk.js.map": "/static/js/696.6ac289a4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e459106.css",
-    "static/js/main.fb5fef67.js"
+    "static/css/main.c206bb2e.css",
+    "static/js/main.edda4347.js"
   ]
 }
