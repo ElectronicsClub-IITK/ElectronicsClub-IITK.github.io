@@ -9,8 +9,9 @@ import Footer from './Components/Footer';
 import CyberHome from './Components/cyber/CyberHome';
 import Challenge from './Components/Challenge';
 import Leaderboard from './Components/Leaderboard';
-import Articles from './Components/Articles';  
+import Articles from './Components/Articles';
 import Gallery from './Components/Gallery';
+import Sandbox from './Components/Sandbox';
 import { useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 
@@ -32,24 +33,36 @@ function RedirectHandler() {
   return null;
 }
 
+function AppShell() {
+  const { pathname } = useLocation();
+  const hideFooter = pathname.toLowerCase().startsWith("/sandbox");
+
+  return (
+    <>
+      <RedirectHandler />
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<CyberHome />} />
+        <Route path="/Projects" element={<Projects />} />
+        <Route path="/Database" element={<Database />} />
+        <Route path="/Articles" element={<Articles />} />
+        <Route path="/Team" element={<Team />} />
+        <Route path="/Comp" element={<Comp />} />
+        <Route path="/Challenge" element={<Challenge />} />
+        <Route path="/Leaderboard" element={<Leaderboard />} />
+        <Route path="/Gallery" element={<Gallery />} />
+        <Route path="/Sandbox" element={<Sandbox />} />
+      </Routes>
+      {!hideFooter && <Footer />}
+    </>
+  );
+}
+
 function App() {
   return (
     <div className="App">
       <Router>
-        <RedirectHandler /> {/* Handles redirects on refresh/direct URL */}
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<CyberHome />} />
-          <Route path="/Projects" element={<Projects />} />
-          <Route path="/Database" element={<Database />} />
-          <Route path="/Articles" element={<Articles />} />
-          <Route path="/Team" element={<Team />} />
-          <Route path="/Comp" element={<Comp />} />
-          <Route path="/Challenge" element={<Challenge />} />
-          <Route path="/Leaderboard" element={<Leaderboard />} />
-          <Route path="/Gallery" element={<Gallery />} />
-        </Routes>
-        <Footer />
+        <AppShell />
       </Router>
     </div>
   );

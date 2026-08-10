@@ -297,8 +297,10 @@ const Footer = () => {
           <h4>Explore</h4>
           <Link to="/Projects">Projects</Link>
           <Link to="/Database">Database</Link>
+          <Link to="/Articles">Articles</Link>
           <Link to="/Team">Team</Link>
           <Link to="/Comp">Components</Link>
+          <Link to="/Sandbox">Sandbox</Link>
         </div>
 
         {/* CONTACT */}

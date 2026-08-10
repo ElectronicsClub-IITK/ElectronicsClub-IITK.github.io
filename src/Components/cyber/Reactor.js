@@ -3,7 +3,6 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import {
   Icosahedron,
   Torus,
-  MeshDistortMaterial,
   Sparkles,
   Float,
   Environment,
@@ -12,6 +11,10 @@ import * as THREE from "three";
 
 const LIME = "#bbdf4d";
 const CYAN = "#3df2ff";
+const PKG = "#141a14";
+const DIE = "#0c2210";
+const PAD = "#c8d98a";
+const PIN = "#b8c4a8";
 
 /* device tier — downgrade the scene on phones / touch for perf + battery */
 const mq = (q) =>
@@ -22,27 +25,150 @@ const IS_MOBILE = mq("(max-width: 640px)");
 const FINE_POINTER = mq("(hover: hover) and (pointer: fine)");
 const NODE_COUNT = IS_MOBILE ? 8 : 14;
 
-/* Central pulsing distorted core */
+/* Stylized IC / microcontroller — replaces the old green blob core */
 function Core() {
-  const mat = useRef();
+  const group = useRef();
+  const dieMat = useRef();
+  const ledMat = useRef();
+
+  const pads = useMemo(() => {
+    const arr = [];
+    const n = IS_MOBILE ? 4 : 6;
+    for (let x = 0; x < n; x++) {
+      for (let z = 0; z < n; z++) {
+        const u = ((x + 0.5) / n - 0.5) * 0.72;
+        const v = ((z + 0.5) / n - 0.5) * 0.72;
+        arr.push([u, 0.17, v]);
+      }
+    }
+    return arr;
+  }, []);
+
+  const pins = useMemo(() => {
+    const arr = [];
+    const perSide = IS_MOBILE ? 6 : 9;
+    for (let i = 0; i < perSide; i++) {
+      const t = (i / (perSide - 1)) * 1.35 - 0.675;
+      arr.push({ p: [t, -0.02, 0.92], r: [0.35, 0, 0] });
+      arr.push({ p: [t, -0.02, -0.92], r: [-0.35, 0, 0] });
+      arr.push({ p: [0.92, -0.02, t], r: [0, 0, -0.35] });
+      arr.push({ p: [-0.92, -0.02, t], r: [0, 0, 0.35] });
+    }
+    return arr;
+  }, []);
+
+  const traces = useMemo(() => {
+    if (IS_MOBILE) return [];
+    return [
+      { p: [0.28, 0.145, 0], s: [0.42, 0.012, 0.03] },
+      { p: [-0.22, 0.145, 0.18], s: [0.03, 0.012, 0.36] },
+      { p: [0.05, 0.145, -0.25], s: [0.38, 0.012, 0.03] },
+      { p: [-0.32, 0.145, -0.08], s: [0.03, 0.012, 0.28] },
+    ];
+  }, []);
+
   useFrame(({ clock }) => {
-    if (mat.current) {
-      mat.current.distort = 0.35 + Math.sin(clock.elapsedTime * 1.5) * 0.12;
+    const t = clock.elapsedTime;
+    if (group.current) {
+      group.current.rotation.y = t * 0.18;
+    }
+    if (dieMat.current) {
+      dieMat.current.emissiveIntensity = 0.35 + Math.sin(t * 1.6) * 0.18;
+    }
+    if (ledMat.current) {
+      // blink like a status LED
+      ledMat.current.emissiveIntensity = Math.sin(t * 4) > 0 ? 1.4 : 0.15;
     }
   });
+
   return (
-    <Icosahedron args={[1.15, 4]}>
-      <MeshDistortMaterial
-        ref={mat}
-        color={LIME}
-        emissive={LIME}
-        emissiveIntensity={0.35}
-        roughness={0.15}
-        metalness={0.9}
-        distort={0.4}
-        speed={2}
-      />
-    </Icosahedron>
+    <group ref={group} rotation={[0.35, 0.55, 0.12]} scale={1.05}>
+      {/* ceramic / plastic package */}
+      <mesh castShadow>
+        <boxGeometry args={[1.7, 0.28, 1.7]} />
+        <meshStandardMaterial
+          color={PKG}
+          metalness={0.55}
+          roughness={0.42}
+          emissive="#1a2a10"
+          emissiveIntensity={0.15}
+        />
+      </mesh>
+
+      {/* bevel rim */}
+      <mesh position={[0, 0.12, 0]}>
+        <boxGeometry args={[1.55, 0.04, 1.55]} />
+        <meshStandardMaterial color="#1c2418" metalness={0.4} roughness={0.5} />
+      </mesh>
+
+      {/* silicon die */}
+      <mesh position={[0, 0.14, 0]}>
+        <boxGeometry args={[0.95, 0.07, 0.95]} />
+        <meshStandardMaterial
+          ref={dieMat}
+          color={DIE}
+          emissive={LIME}
+          emissiveIntensity={0.4}
+          metalness={0.85}
+          roughness={0.18}
+        />
+      </mesh>
+
+      {/* contact pad grid on the die */}
+      {pads.map((p, i) => (
+        <mesh key={`pad-${i}`} position={p}>
+          <boxGeometry args={[0.055, 0.018, 0.055]} />
+          <meshStandardMaterial
+            color={PAD}
+            emissive={i % 5 === 0 ? CYAN : LIME}
+            emissiveIntensity={0.25}
+            metalness={0.9}
+            roughness={0.2}
+          />
+        </mesh>
+      ))}
+
+      {/* etched signal traces */}
+      {traces.map((tr, i) => (
+        <mesh key={`tr-${i}`} position={tr.p}>
+          <boxGeometry args={tr.s} />
+          <meshBasicMaterial color={CYAN} transparent opacity={0.55} />
+        </mesh>
+      ))}
+
+      {/* QFP-style pins */}
+      {pins.map((pin, i) => (
+        <mesh key={`pin-${i}`} position={pin.p} rotation={pin.r}>
+          <boxGeometry args={[0.06, 0.035, 0.28]} />
+          <meshStandardMaterial
+            color={PIN}
+            metalness={0.95}
+            roughness={0.22}
+            emissive={LIME}
+            emissiveIntensity={0.08}
+          />
+        </mesh>
+      ))}
+
+      {/* status LED */}
+      <mesh position={[0.62, 0.2, 0.62]}>
+        <sphereGeometry args={[0.055, 12, 12]} />
+        <meshStandardMaterial
+          ref={ledMat}
+          color={LIME}
+          emissive={LIME}
+          emissiveIntensity={1}
+          roughness={0.25}
+          metalness={0.1}
+        />
+      </mesh>
+
+      {/* orientation notch */}
+      <mesh position={[-0.72, 0.15, -0.72]} rotation={[Math.PI / 2, 0, 0]}>
+        <cylinderGeometry args={[0.08, 0.08, 0.06, 16]} />
+        <meshStandardMaterial color="#0a100a" metalness={0.3} roughness={0.6} />
+      </mesh>
+    </group>
   );
 }
 

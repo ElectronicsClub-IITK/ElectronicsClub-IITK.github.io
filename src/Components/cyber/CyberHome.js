@@ -727,6 +727,11 @@ _ ready for input`}
                 </Link>
               </Magnetic>
               <Magnetic>
+                <Link to="/Sandbox" className="ch-btn ch-btn-ghost">
+                  <span>OPEN SANDBOX</span>
+                </Link>
+              </Magnetic>
+              <Magnetic>
                 <Link to="/Challenge" className="ch-btn ch-btn-ghost">
                   <span>MONTHLY CHALLENGE</span>
                 </Link>

@@ -9,6 +9,7 @@ const LINKS = [
   { to: "/Articles", label: "Articles" },
   { to: "/Team", label: "Team" },
   { to: "/Comp", label: "Components" },
+  { to: "/Sandbox", label: "Sandbox" },
   { to: "/Challenge", label: "Challenge" },
   { to: "/Leaderboard", label: "Leaderboard" },
   { to: "/Gallery", label: "Gallery" },
